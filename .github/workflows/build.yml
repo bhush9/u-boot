@@ -2,7 +2,7 @@ name: Mecha U-Boot Build
 
 on:
   push:
-    branches: [ "main", "master" ,"imx/lf_v2025.04"]
+    branches: [ "main", "master" ,"imx/lf_v2025.04", "mecha-v2025.04"]
   pull_request:
     branches: [ "main", "master", "imx/lf_v2025.04"]
   workflow_dispatch:
